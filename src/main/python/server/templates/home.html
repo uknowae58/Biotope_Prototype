@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Client for system</title>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <form action="http://127.0.0.1:5000/result" method="POST">
+            Name:<input type="text" name="name">
+            Value:<input type="text" name='value'>
+            Type:<select name="type">
+                <option value="ort">Ort</option>
+                <option value="parkplatz-id">Parkplatz id</option>
+                <option value="elektroParkplatzId">ElektroParkplatzId</option>
+                <option value="restaurant-id">Restaurant id</option>
+                <option value="tisch">Tisch</option>
+            </select>
+            <br>
+            Predicates:<select name="predicates type">
+                <option value="parkplatz-ist-an-ort">parkplatz-ist-an-ort</option>
+                <option value="restaurant-ist-an-ort">restaurant-ist-an-ort</option>
+                <option value="parkplatz-gebucht">parkplatz-gebucht</option>
+                <option value="waschen-gebucht">waschen-gebucht</option>
+                <option value="tisch-ist-in-restaurant">tisch-ist-in-restaurant</option>
+                <option value="tisch-gebucht">tisch-gebucht</option>
+            </select>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>

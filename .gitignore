@@ -1,0 +1,15 @@
+.pybuilder/
+.vscode/
+.installed.cfg
+bin
+develop-eggs/
+downloads
+eggs/
+parts
+src/*.egg-info
+lib
+lib64/
+*.pyc
+*.pyo
+target/
+.DS_Store 

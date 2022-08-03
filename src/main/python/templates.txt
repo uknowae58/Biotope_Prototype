@@ -1,0 +1,14 @@
+(define 
+    (problem $problem)
+    (:domain $Domain)
+    (:objects
+        $objectslist
+    )
+    (:init
+        $initlist
+    )
+
+    (:goal
+        $goal
+    )
+)

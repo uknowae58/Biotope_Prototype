@@ -1,0 +1,17 @@
+{
+    "environment": [
+        {
+            "name":"o1", "value":"Berlin", "type":"ort" 
+        },
+        {
+            "name":"t1", "type":"tisch"
+        },
+        {
+            "name":"r1", "value":"Asia Temple", "type":"restaurant-id"
+        }
+    ],
+    "init":[ 
+        "(restaurant-ist-an-ort r1 o1)" 
+    ],
+    "goal":  "(and (tisch-gebucht t1) (tisch-ist-in-restaurant t1 r1)"
+}

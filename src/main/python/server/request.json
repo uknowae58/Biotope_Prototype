@@ -1,0 +1,19 @@
+{
+    "enviroment": [
+        {
+            "name": "351",
+            "value": "253",
+            "type": "ort"
+        }
+    ],
+    "init": [
+        {
+            "goal": "(restaurant-id)"
+        }
+    ],
+    "goal": [
+        {
+            "goal": "(restaurant-id)"
+        }
+    ]
+}

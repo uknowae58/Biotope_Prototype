@@ -1,0 +1,14 @@
+{
+    "environment": [
+        {
+            "name":"o1", "value":"Berlin", "type":"ort"
+        },
+        {
+            "name":"p1", "value":"118WA", "type":"parkplatz-id"
+        }
+    ],
+    "init":[
+        "(parkplatz-ist-an-ort p1 o1)"
+    ],
+    "goal":  "(and ((parkplatz-gebucht p1) (waschen-gebucht p1)"
+}

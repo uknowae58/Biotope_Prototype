@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "src",
+			"path": "../src"
+		},
+		{
+			"name": "simple_python_project",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

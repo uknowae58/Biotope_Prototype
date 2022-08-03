@@ -1,0 +1,1 @@
+{"environment": [{"name": "o1", "value": "Berlin", "type": "ort"}, {"name": "t1", "type": "tisch"}, {"name": "r1", "value": "Asia Temple", "type": "restaurant-id"}], "composition": [{"name": "tisch-ist-in-restaurant_intern", "params": ["t1", "r1"]}, {"name": "post-tisch-buchen", "params": ["t1"]}]}

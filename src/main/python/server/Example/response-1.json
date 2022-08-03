@@ -1,0 +1,28 @@
+{
+    "environment": [
+        {
+            "name":"o1","value": "Berlin",  "type": "ort"
+        },
+
+        {
+            "name":"r1","value":"Asia Tempel", "type": "restaurant"
+        },
+        {
+            "name":"t1","type":"tisch"
+        },
+        {
+            "name": "p1", "type": "parkplatz-id" 
+        }
+    ],
+    "composition": [
+    
+        {
+            "name": "tisch-ist-in-restaurant-intern",
+            "params": ["t1", "r1"]
+        },
+        {
+            "name": "tisch-buchen",
+            "params":["t1"]
+        }
+    ]
+}

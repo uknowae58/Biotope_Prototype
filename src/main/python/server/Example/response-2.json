@@ -1,0 +1,20 @@
+{
+    "environment": [
+        {
+            "name":"o1","value": "Berlin",  "type": "ort"
+        },
+        {
+            "name": "p1", "type": "parkplatz-id"
+        }
+    ],
+    "composition": [
+        {
+            "name": "post_reserviere-parkplatz",
+            "params": ["p1"]
+        },
+        {
+            "name": "post_buche-waschen",
+            "params": [ "p1"]
+        }
+    ]
+}
